@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  {% if is_404 %}<meta name="robots" content="noindex">{% if profile.site_url %}<base href="{{ profile.site_url }}/">{% endif %}{% endif %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}{% if title != profile.name %} — {{ profile.name }}{% else %} | Robotics, software & applied AI{% endif %}</title>
+  <meta name="description" content="{{ description }}">
+  <meta name="theme-color" content="#f6f4ed">
+  <meta property="og:title" content="{{ title }} — Engineering portfolio">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:type" content="website">
+  {% if profile.site_url %}<link rel="canonical" href="{{ canonical }}"><meta property="og:url" content="{{ canonical }}"><meta property="og:image" content="{{ profile.site_url }}/assets/images/social.png">{% endif %}
+  <link rel="icon" type="image/svg+xml" href="{{ url('assets/images/favicon.svg') }}">
+  <link rel="stylesheet" href="{{ url('assets/style.css') }}">
+  <script src="{{ url('assets/site.js') }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="{{ url('index.html') }}" aria-label="Aravind Sudheer — home"><span class="brand-mark">AS<span>.</span></span><span class="brand-name">Aravind Sudheer<span>ENGINEERING PORTFOLIO</span></span></a>
+      <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" hidden>Menu <span aria-hidden="true">+</span></button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        {% for label, path, section in [('Work','projects/index.html','work'),('Experience','experience/index.html','experience'),('About','about/index.html','about'),('CV','resume/index.html','resume')] %}
+        <a href="{{ url(path) }}" {% if active == section %}aria-current="page"{% endif %}>{{ label }}</a>
+        {% endfor %}
+        <a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">{% block content %}{% endblock %}</main>
+  <footer id="contact" class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div><p class="eyebrow">NEXT CHAPTER</p><h2>Good work starts<br>with a conversation.</h2><p class="footer-summary">{{ profile.opportunity }}</p></div>
+        <div class="contact-block"><a class="email-link" href="mailto:{{ profile.email }}">{{ profile.email }} <span aria-hidden="true">↗</span></a><div class="social-links"><a href="{{ profile.github }}">GitHub ↗</a><a href="{{ profile.linkedin }}">LinkedIn ↗</a><button class="copy-email" type="button" data-email="{{ profile.email }}" hidden>Copy email</button></div><p class="copy-status" role="status" aria-live="polite"></p><p class="small">Based in {{ profile.location }} · Professional enquiries welcome</p></div>
+      </div>
+      <div class="footer-bottom"><span>© {{ profile.year }} {{ profile.name }}</span><span>Robotics foundations. Software direction.</span><a href="{{ url('privacy/index.html') }}">Privacy & credits</a></div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,133 @@
+{
+  "name": "Aravind Sudheer",
+  "initials": "AS",
+  "email": "aravind.sudheer01@gmail.com",
+  "location": "India",
+  "github": "https://github.com/aravindsudheer01-arch",
+  "linkedin": "https://www.linkedin.com/in/aravindsudheer/",
+  "site_url": "",
+  "updated": "2026-10-23",
+  "year": "2026",
+  "intro": "Robotics & Mechatronics graduate building Python applications, applied AI tools and data analysis. Grounded in hands-on industrial automation.",
+  "opportunity": "Seeking junior roles in Python development, AI applications and data analytics, with selective opportunities in ML and computer vision.",
+  "education": {
+    "degree": "Bachelor of Engineering (Honours)",
+    "discipline": "Robotics and Mechatronics Engineering",
+    "specialisation": "Artificial Intelligence specialisation",
+    "school": "Monash University, Malaysia",
+    "date": "July 2025"
+  },
+  "certifications": [
+    {
+      "name": "Certified SOLIDWORKS Associate (CSWA)",
+      "issuer": "Dassault Systèmes",
+      "date": "2021"
+    },
+    {
+      "name": "IELTS Academic — Overall 8.5",
+      "issuer": "English-language qualification",
+      "date": "2025"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python & applications",
+      "items": [
+        "Python",
+        "API integration",
+        "Streamlit",
+        "SQLite",
+        "LangChain",
+        "Pydantic"
+      ]
+    },
+    {
+      "name": "Data & ML foundations",
+      "items": [
+        "SQL / MySQL",
+        "pandas",
+        "NumPy",
+        "scikit-learn",
+        "TF-IDF & cosine similarity",
+        "Regression & clustering"
+      ]
+    },
+    {
+      "name": "Computer vision",
+      "items": [
+        "OpenCV",
+        "MediaPipe integration",
+        "Facial landmarks",
+        "Head-pose estimation",
+        "Image processing"
+      ]
+    },
+    {
+      "name": "Robotics & hardware",
+      "items": [
+        "ABB / RAPID",
+        "RobotStudio",
+        "SOLIDWORKS",
+        "WinCC layouts",
+        "PLC / I/O validation",
+        "Arduino & Blynk"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Junior Robotics Engineer",
+      "company": "Simpliforge Creations",
+      "location": "Hyderabad, India",
+      "dates": "Dec 2025 — May 2026",
+      "type": "Professional experience",
+      "slug": "robotic-concrete-printing",
+      "summary": "ABB robot programming, calibration and troubleshooting for concrete additive manufacturing.",
+      "bullets": [
+        "Programmed, simulated and deployed ABB six-axis robots using RAPID and RobotStudio for concrete 3D printing.",
+        "Configured workobjects, tool data and end-effectors before live robotic printing.",
+        "Monitored PLC signals and process parameters; troubleshot robot-motion and program-execution issues."
+      ]
+    },
+    {
+      "role": "Design & Application Engineer (Intern)",
+      "company": "Automation Systems and Services",
+      "location": "Kuala Lumpur, Malaysia",
+      "dates": "Nov 2023 — Feb 2024",
+      "type": "Internship",
+      "slug": "warehouse-automation",
+      "summary": "Control-panel wiring, WinCC warehouse layouts and practical system validation.",
+      "bullets": [
+        "Created AutoCAD electrical schematics and supported control-panel wiring.",
+        "Worked on WinCC SCADA layouts, sensor installation and PLC signal verification.",
+        "Assisted industrial-system commissioning, electrical checks and technical documentation; did not independently commission a complete SCADA system."
+      ]
+    }
+  ],
+  "cv": [
+    {
+      "key": "SW_AI",
+      "title": "Python & AI applications",
+      "description": "Python, API integration and applied AI, supported by robotics programming experience.",
+      "file": "Aravind_SW_AI_CV.pdf"
+    },
+    {
+      "key": "DATA",
+      "title": "Data & analytics",
+      "description": "SQL analysis, data preparation and practical engineering context.",
+      "file": "Aravind_DATA_CV.pdf"
+    },
+    {
+      "key": "ML_CV",
+      "title": "ML & computer vision",
+      "description": "Project-based ML, content-based recommendation and computer vision prototypes.",
+      "file": "Aravind_ML_CV.pdf"
+    },
+    {
+      "key": "Engineering",
+      "title": "Robotics & engineering",
+      "description": "ABB programming, commissioning support, CAD and hardware integration.",
+      "file": "Aravind_Engineering_CV.pdf"
+    }
+  ]
+}

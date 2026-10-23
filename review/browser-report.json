@@ -1,0 +1,370 @@
+{
+  "method": "Offline Chromium with local CSS/JS/images embedded; localhost and file URLs blocked by environment policy. No policy was changed.",
+  "viewports": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "pages": [
+    {
+      "route": "index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "projects/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "projects/movie-recommender/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "projects/ai-research-assistant/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "projects/chinook-sales-analysis/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "projects/solar-monitoring/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "projects/driver-monitoring/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "projects/robotic-concrete-printing/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "projects/warehouse-automation/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "projects/pick-and-place/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "projects/resistor-segregator/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "projects/malayalam-news-digest/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "experience/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "about/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "resume/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "privacy/index.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "404.html",
+      "width": 320,
+      "rendered": true
+    },
+    {
+      "route": "index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "projects/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "projects/movie-recommender/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "projects/ai-research-assistant/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "projects/chinook-sales-analysis/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "projects/solar-monitoring/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "projects/driver-monitoring/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "projects/robotic-concrete-printing/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "projects/warehouse-automation/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "projects/pick-and-place/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "projects/resistor-segregator/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "projects/malayalam-news-digest/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "experience/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "about/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "resume/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "privacy/index.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "404.html",
+      "width": 390,
+      "rendered": true
+    },
+    {
+      "route": "index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "projects/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "projects/movie-recommender/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "projects/ai-research-assistant/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "projects/chinook-sales-analysis/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "projects/solar-monitoring/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "projects/driver-monitoring/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "projects/robotic-concrete-printing/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "projects/warehouse-automation/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "projects/pick-and-place/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "projects/resistor-segregator/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "projects/malayalam-news-digest/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "experience/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "about/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "resume/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "privacy/index.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "404.html",
+      "width": 768,
+      "rendered": true
+    },
+    {
+      "route": "index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "projects/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "projects/movie-recommender/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "projects/ai-research-assistant/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "projects/chinook-sales-analysis/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "projects/solar-monitoring/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "projects/driver-monitoring/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "projects/robotic-concrete-printing/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "projects/warehouse-automation/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "projects/pick-and-place/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "projects/resistor-segregator/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "projects/malayalam-news-digest/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "experience/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "about/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "resume/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "privacy/index.html",
+      "width": 1440,
+      "rendered": true
+    },
+    {
+      "route": "404.html",
+      "width": 1440,
+      "rendered": true
+    }
+  ],
+  "overflow": [],
+  "js_errors": [],
+  "failed_requests": [],
+  "checks": {
+    "category_filter": true,
+    "search_and_empty_state": true,
+    "mobile_menu_and_escape": true,
+    "mobile_menu_closes_on_contact": true,
+    "email_link": true,
+    "four_download_controls": true,
+    "no_js_content_and_nav": true,
+    "reduced_motion": true
+  },
+  "not_executed": [
+    "Actual hosted navigation",
+    "Clipboard write in a secure hosted context",
+    "Browser PDF-download network requests",
+    "Safari and real iPhone testing"
+  ]
+}

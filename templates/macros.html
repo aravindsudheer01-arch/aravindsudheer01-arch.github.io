@@ -1,0 +1,6 @@
+{% macro card(p, url, compact=false) %}
+<article class="project-card{% if compact %} compact{% endif %}" data-project data-category="{{ p.category }}" data-search="{{ (p.title ~ ' ' ~ p.summary ~ ' ' ~ p.tools|join(' '))|lower }}">
+  <a class="project-image-link" href="{{ url('projects/' ~ p.slug ~ '/index.html') }}" tabindex="-1" aria-hidden="true"><img src="{{ url(p.image) }}" alt="" width="800" height="500" loading="lazy" decoding="async"><span class="image-arrow" aria-hidden="true">↗</span></a>
+  <div class="project-copy"><div class="project-meta"><span>{{ p.kind }}</span><span>{{ p.category_label }}</span></div><h3><a href="{{ url('projects/' ~ p.slug ~ '/index.html') }}">{{ p.title }}</a></h3><p>{{ p.summary }}</p><div class="tool-list">{% for tool in p.tools[:4] %}<span>{{ tool }}</span>{% endfor %}</div></div>
+</article>
+{% endmacro %}

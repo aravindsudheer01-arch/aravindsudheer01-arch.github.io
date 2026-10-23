@@ -1,0 +1,15 @@
+{% extends 'base.html' %}{% from 'macros.html' import card %}
+{% block content %}
+<section class="hero container">
+  <div class="hero-copy"><p class="eyebrow"><span class="accent-dot"></span> ROBOTICS / SOFTWARE / DATA</p><h1>Physical systems.<br><em>Practical software.</em></h1><p class="hero-intro">{{ profile.intro }}</p><div class="hero-actions"><a class="button" href="{{ url('projects/index.html') }}">Explore my work <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ profile.github }}">View GitHub <span aria-hidden="true">↗</span></a></div><p class="hero-detail">MONASH UNIVERSITY · BE (HONOURS) · INDIA</p></div>
+  <figure class="hero-figure"><div class="figure-top"><span>01 / SYSTEMS THINKING</span><span>HARDWARE ↔ SOFTWARE</span></div><img src="{{ url('assets/images/systems.svg') }}" width="800" height="540" alt="Conceptual robot-arm schematic connecting sensing, modelling and action"><figcaption>From physical inputs to useful outputs.<span>Conceptual illustration</span></figcaption></figure>
+</section>
+<section class="container discipline-strip" aria-label="Areas of work">
+  <div><span class="index">01</span><div><h2>Engineering foundations</h2><p>ABB robotics, CAD & hardware integration</p></div></div>
+  <div><span class="index">02</span><div><h2>Software & applied AI</h2><p>Python applications, APIs & computer vision</p></div></div>
+  <div><span class="index">03</span><div><h2>Data with context</h2><p>SQL, analysis & interpretable methods</p></div></div>
+</section>
+<section class="section container" aria-labelledby="selected-heading"><div class="section-heading"><div><p class="eyebrow">SELECTED WORK / 2024–2026</p><h2 id="selected-heading">A bridge between disciplines.</h2></div><a class="text-link" href="{{ url('projects/index.html') }}">All case studies <span aria-hidden="true">↗</span></a></div><div class="project-grid featured-grid">{% for p in featured %}{{ card(p,url) }}{% endfor %}</div></section>
+<section class="experience-band"><div class="container section"><div class="section-heading"><div><p class="eyebrow">PRACTICAL EXPERIENCE</p><h2>Software meets the real world.</h2></div><a class="text-link" href="{{ url('experience/index.html') }}">Experience in detail <span aria-hidden="true">↗</span></a></div><div class="experience-list">{% for e in profile.experience %}<a class="experience-row" href="{{ url('projects/' ~ e.slug ~ '/index.html') }}"><span class="experience-date">{{ e.dates }}</span><div><h3>{{ e.role }}</h3><p>{{ e.company }}</p><p class="experience-summary">{{ e.summary }}</p></div><span aria-hidden="true">↗</span></a>{% endfor %}</div></div></section>
+<section class="container about-teaser section"><p class="eyebrow">A LITTLE CONTEXT</p><div><h2>An engineering background.<br>A software-focused next step.</h2><p>My experience runs from robot workobjects and electrical checks to Python workflows and SQL queries. I’m bringing that practical systems perspective to junior software, applied AI and data roles.</p><a class="text-link" href="{{ url('about/index.html') }}">More about me <span aria-hidden="true">↗</span></a></div></section>
+{% endblock %}

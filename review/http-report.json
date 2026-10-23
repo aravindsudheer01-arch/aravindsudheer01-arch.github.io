@@ -1,0 +1,140 @@
+[
+  {
+    "path": "index.html",
+    "status": 200,
+    "bytes": 10426,
+    "content_type": "text/html"
+  },
+  {
+    "path": "projects/index.html",
+    "status": 200,
+    "bytes": 13942,
+    "content_type": "text/html"
+  },
+  {
+    "path": "projects/movie-recommender/index.html",
+    "status": 200,
+    "bytes": 7748,
+    "content_type": "text/html"
+  },
+  {
+    "path": "projects/ai-research-assistant/index.html",
+    "status": 200,
+    "bytes": 7493,
+    "content_type": "text/html"
+  },
+  {
+    "path": "projects/chinook-sales-analysis/index.html",
+    "status": 200,
+    "bytes": 7928,
+    "content_type": "text/html"
+  },
+  {
+    "path": "projects/solar-monitoring/index.html",
+    "status": 200,
+    "bytes": 7233,
+    "content_type": "text/html"
+  },
+  {
+    "path": "projects/driver-monitoring/index.html",
+    "status": 200,
+    "bytes": 7611,
+    "content_type": "text/html"
+  },
+  {
+    "path": "projects/robotic-concrete-printing/index.html",
+    "status": 200,
+    "bytes": 6916,
+    "content_type": "text/html"
+  },
+  {
+    "path": "projects/warehouse-automation/index.html",
+    "status": 200,
+    "bytes": 6890,
+    "content_type": "text/html"
+  },
+  {
+    "path": "projects/pick-and-place/index.html",
+    "status": 200,
+    "bytes": 6597,
+    "content_type": "text/html"
+  },
+  {
+    "path": "projects/resistor-segregator/index.html",
+    "status": 200,
+    "bytes": 6235,
+    "content_type": "text/html"
+  },
+  {
+    "path": "projects/malayalam-news-digest/index.html",
+    "status": 200,
+    "bytes": 6672,
+    "content_type": "text/html"
+  },
+  {
+    "path": "experience/index.html",
+    "status": 200,
+    "bytes": 5793,
+    "content_type": "text/html"
+  },
+  {
+    "path": "about/index.html",
+    "status": 200,
+    "bytes": 5841,
+    "content_type": "text/html"
+  },
+  {
+    "path": "resume/index.html",
+    "status": 200,
+    "bytes": 4960,
+    "content_type": "text/html"
+  },
+  {
+    "path": "privacy/index.html",
+    "status": 200,
+    "bytes": 4512,
+    "content_type": "text/html"
+  },
+  {
+    "path": "404.html",
+    "status": 200,
+    "bytes": 3156,
+    "content_type": "text/html"
+  },
+  {
+    "path": "assets/style.css",
+    "status": 200,
+    "bytes": 21590,
+    "content_type": "text/css"
+  },
+  {
+    "path": "assets/site.js",
+    "status": 200,
+    "bytes": 2696,
+    "content_type": "text/javascript"
+  },
+  {
+    "path": "assets/cv/Aravind_DATA_CV.pdf",
+    "status": 200,
+    "bytes": 47509,
+    "content_type": "application/pdf"
+  },
+  {
+    "path": "assets/cv/Aravind_SW_AI_CV.pdf",
+    "status": 200,
+    "bytes": 47095,
+    "content_type": "application/pdf"
+  },
+  {
+    "path": "assets/cv/Aravind_Engineering_CV.pdf",
+    "status": 200,
+    "bytes": 50249,
+    "content_type": "application/pdf"
+  },
+  {
+    "path": "assets/cv/Aravind_ML_CV.pdf",
+    "status": 200,
+    "bytes": 46594,
+    "content_type": "application/pdf"
+  }
+]
