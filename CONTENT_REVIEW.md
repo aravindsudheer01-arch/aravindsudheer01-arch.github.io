@@ -42,6 +42,14 @@ The current explanatory diagrams allow launch without these assets. No empty ima
 - The public email and LinkedIn URL are correct. Public location is India only. No CV PDFs are offered publicly through this website; private application copies may include a phone number.
 - Source notes and the driver's stationary-use warning stay visible.
 
+## FYP evidence update — 30 October 2026
+
+- The solar-monitoring case study was rewritten against Aravind's **ENG4702 final report**, submitted on 27 May 2025.
+- Original illustrations and project photographs were extracted from the report: architecture **p. 13**, workshop backplate **p. 21**, rooftop and RTU prototypes **p. 22**, and monitoring dashboard **p. 24**. They are explicitly captioned as source-report images.
+- Results are limited to reported comparisons, a 32-minute continuous log and brief no-load / load measurements. The design was tested on a single EPEVER controller; **brand independence was not experimentally confirmed**.
+- Blynk API credentials and all code-appendix pages were **not** added. The original full PDF is **not** published; if the token in that private report remains active, rotate it.
+- No future LoRa operation, ML predictive maintenance, rural-school installation, or commercialization is asserted as completed.
+
 ## Current site navigation and CV policy — 30 October 2026
 
 The portfolio has Projects, Experience and About sections with direct email, LinkedIn and GitHub links in the footer. Project case studies include clearly labelled academic, personal and selected employer-related work; professional roles are presented on Experience. The CV page and its old downloadable PDFs were retired because applications use up-to-date, role-specific copies distributed separately.

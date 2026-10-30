@@ -73,9 +73,10 @@
         "ABB / RAPID",
         "RobotStudio",
         "SOLIDWORKS",
-        "WinCC layouts",
-        "PLC / I/O validation",
-        "Arduino & Blynk"
+        "WinCC SCADA / PLC I/O",
+        "ESP32 / embedded C++",
+        "Modbus RTU / RS-485 / ESP-NOW",
+        "4G IoT telemetry / Blynk"
       ]
     }
   ],

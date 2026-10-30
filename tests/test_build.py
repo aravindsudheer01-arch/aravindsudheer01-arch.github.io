@@ -50,4 +50,15 @@ class ContentTests(unittest.TestCase):
         self.assertFalse((site/'resume').exists())
         self.assertFalse((site/'assets/cv').exists())
         self.assertIn('All projects', projects)
+    def test_solar_report_images_and_no_public_credentials(self):
+        from build import load_projects, safe_asset
+        project=next(p for p in load_projects() if p['slug']=='solar-monitoring')
+        self.assertEqual(project['image'],'assets/images/fyp-solar-architecture.jpg')
+        self.assertGreaterEqual(len(project['gallery']),4)
+        for image in project['gallery']:
+            self.assertTrue(safe_asset(image['src']).is_file())
+            self.assertTrue(image['alt'])
+            self.assertTrue(image['caption'])
+        self.assertNotIn('BLYNK_AUTH_TOKEN',project['body'])
+        self.assertIn('32-minute',project['body'])
 if __name__=='__main__':unittest.main()
