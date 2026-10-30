@@ -18,7 +18,7 @@ No engineering photographs were recovered from the available current files. The 
 | Chinook SQL | Live README and `03_advanced_queries.sql` | Synthetic sample data; quoted shares are findings, not commercial impact |
 | Driver monitoring | Live README and previous code audit | Uses pretrained MediaPipe; no trained detector, validated fatigue classifier or real-driving safety claim |
 | Solar monitoring | CVs and earlier project clarifications | Industry-guided academic work; no unverified numeric accuracy/cost claim |
-| Pick-and-place | CVs | Team project; mechanical design role only, not sole authorship of all robot software |
+| Pick-and-place | ECE4191 Group 11 final report (2024); team role matrix, CAD and original build photos | Aravind was primary mechanical engineer and supported software integration/testing; another teammate led firmware; report confirms Level 1 competition completion only |
 | Resistor segregator | CVs | Academic PLC/sensor work; no invented accuracy or labour-saving metric |
 | ABB concrete printing | 2026 CV | Professional programming and operation, not professional Python/ML employment |
 | Warehouse automation | CVs and scope clarification | Internship, commissioning assistance and interface layouts; not independently commissioned SCADA |
@@ -72,3 +72,12 @@ Review the wording, publish this version and add the live URL to your applicatio
 - The clip shows the **completed printed bench**, not the printer in motion; no material strength, process repeatability, printing accuracy or throughput is inferred.
 - This is evidence provided by Aravind as a participant in the work; employer permission for sharing any site footage is not independently established by this repository.
 - The case study continues to exclude proprietary robot programs, exact equipment settings, and client identifiers.
+
+## Autonomous Pick-and-Place Robot update — 30 October 2026
+
+- Source: *ECE4191 Engineering Integrated Design*, Group 11 final report (2024). The report identifies Aravind as **Primary Mechanical Engineer, Product Advocator and Secondary Progress Keeper**, with ownership of gripper CAD and coordination of 3D printing (p. 73). The responsibility matrix (p. 75) assigns mechanical CAD and gripper design primarily to Aravind; integration and control are shared team work.
+- Five public image assets were extracted or composed from **original robot photographs and CAD renders** in the group report (pp. 13–16, 21). The main cover juxtaposes robot views with and without the casing. No photographs of students, student IDs, full source report or third-party diagrams were uploaded.
+- Software contribution is described as **assisted hardware-software integration and motion/puck-handling testing**, not primary firmware authorship. The team's main firmware work was led by a teammate.
+- Competition outcome is bounded to the report's statement that **Level 1 was completed in the final competition** (p. 84). No victory, official placing, full two-level success or completion time is claimed.
+- Team spending is reported as **RM240.48** versus **RM302.94 planned**, with a RM320 cap; these are group figures, not individual savings.
+- Known shortcomings (alignment, gripper slippage, colour-sensor mounting and power demands) remain explicitly stated, rather than presenting the robot as fully validated.

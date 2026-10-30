@@ -82,4 +82,16 @@ class ContentTests(unittest.TestCase):
             p=Path(tmp)/'unsafe-video.md'
             p.write_text(source.replace('assets/videos/simpliforge-concrete-bench.mp4','assets/../../secrets.mp4'))
             with self.assertRaises(ValueError):load_project(p)
+    def test_pick_and_place_team_project_provenance(self):
+        project=next(p for p in load_projects() if p['slug']=='pick-and-place')
+        self.assertEqual(project['kind'], 'Academic team project')
+        self.assertIn('Primary Mechanical Engineer', project['role'])
+        self.assertEqual(project['image'], 'assets/images/pick-place-robot-build.webp')
+        self.assertEqual(len(project['gallery']),4)
+        self.assertTrue(safe_asset(project['image']).is_file())
+        for media in project['gallery']:
+            self.assertTrue(safe_asset(media['src']).is_file())
+            self.assertTrue(media['alt'] and media['caption'])
+        self.assertIn('not the primary firmware engineer', project['body'])
+        self.assertIn('completed Level 1', project['body'])
 if __name__=='__main__':unittest.main()
