@@ -21,7 +21,7 @@ import mistune
 import yaml
 
 ROOT = Path(__file__).resolve().parent
-CATEGORIES = {'all':'All work','software':'Python & AI','data':'Data & SQL','engineering':'Robotics & hardware','vision':'Computer vision'}
+CATEGORIES = {'all':'All projects','software':'Python & AI','data':'Data & SQL','engineering':'Robotics & hardware','vision':'Computer vision'}
 REQUIRED = ('slug','title','summary','category','kind','period','role','tools','order','image','image_alt','image_caption')
 
 def slugify(value: str) -> str:
@@ -92,9 +92,6 @@ def build(destination: Path | None=None) -> Path:
     projects=load_projects()
     profile=json.loads((ROOT/'content/profile.json').read_text())
     profile['site_url'] = os.environ.get('PORTFOLIO_SITE_URL', profile.get('site_url','')).rstrip('/')
-    for cv in profile['cv']:
-        if cv.get('file'):
-            safe_asset('assets/cv/' + cv['file'])
     env=jinja2.Environment(loader=jinja2.FileSystemLoader(ROOT/'templates'),autoescape=jinja2.select_autoescape(['html']),undefined=jinja2.StrictUndefined)
     work=Path(tempfile.mkdtemp(prefix='.site-build-',dir=ROOT))
     routes=[]
@@ -107,12 +104,11 @@ def build(destination: Path | None=None) -> Path:
     try:
         shutil.copytree(ROOT/'assets',work/'assets')
         render('home.html','index.html',profile['name'],profile['intro'],featured=[p for p in projects if p.get('featured')])
-        render('projects.html','projects/index.html','Selected work','Python applications, SQL analytics, computer vision, robotics and academic engineering case studies.','work')
-        for i,p in enumerate(projects):render('project.html',f"projects/{p['slug']}/index.html",p['title'],p['summary'],'work',project=p,next_project=projects[(i+1)%len(projects)])
+        render('projects.html','projects/index.html','Projects','Python applications, SQL analytics, computer vision and engineering case studies.','projects')
+        for i,p in enumerate(projects):render('project.html',f"projects/{p['slug']}/index.html",p['title'],p['summary'],'projects',project=p,next_project=projects[(i+1)%len(projects)])
         for template,route,title,description,active in [
             ('experience.html','experience/index.html','Experience','Professional ABB robotics and industrial automation experience.','experience'),
             ('about.html','about/index.html','About','Engineering background, education and technical skills.','about'),
-            ('resume.html','resume/index.html','CV & professional links','Download role-specific CVs with GitHub links.','resume'),
             ('privacy.html','privacy/index.html','Privacy & credits','Privacy practices, project evidence and visual credits.',''),
             ('404.html','404.html','Page not found','This page could not be found.','')]:render(template,route,title,description,active)
         (work/'.nojekyll').write_text('')

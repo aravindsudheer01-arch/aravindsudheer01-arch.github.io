@@ -2,7 +2,7 @@
 
 ## Basis used for this version
 
-- The uploaded 2025 and 2026 resumes and the previously generated SW_AI, DATA, ML_CV and Engineering CVs.
+- Earlier resumes, verified engineering registration and project source documentation.
 - Live reads of the four main public repository READMEs on 23 October 2026; direct reads of the weighted recommender, research CLI and advanced SQL queries.
 - Earlier project discussions and source-code audit in this conversation.
 - The earlier clarification that the Aiszzy work was connected to the final-year solar project, not a separate additional job; and that Aravind supported industrial commissioning but did not independently commission a complete SCADA system.
@@ -39,18 +39,18 @@ The current explanatory diagrams allow launch without these assets. No empty ima
 - The project contribution text matches what you personally did, including any team/tutorial/AI-assisted portions. Add attribution where needed; no 'from scratch' claim is made.
 - The degree wording and AI specialisation match the official qualification. The website uses your provided resume wording rather than inventing a credential.
 - The professional dates remain Dec 2025–May 2026 and Nov 2023–Feb 2024. No employment is shown as current.
-- The public email and LinkedIn URL are correct. Public location is India only. Public CVs omit the telephone number; private application copies can include it.
+- The public email and LinkedIn URL are correct. Public location is India only. No CV PDFs are offered publicly through this website; private application copies may include a phone number.
 - Source notes and the driver's stationary-use warning stay visible.
 
-## CV changes in this bundle
+## Current site navigation and CV policy — 30 October 2026
 
-All four variants now have clickable LinkedIn and GitHub links. Public contact blocks omit the phone number and narrow current-city assumption. SW_AI foregrounds the research agent, recommender and driver prototype. DATA foregrounds Chinook SQL. ML_CV adds the driver prototype while retaining clearly labelled coursework. Engineering retains the CAD and industrial experience emphasis. Originals are not overwritten.
+The portfolio has Projects, Experience and About sections with direct email, LinkedIn and GitHub links in the footer. Project case studies include clearly labelled academic, personal and selected employer-related work; professional roles are presented on Experience. The CV page and its old downloadable PDFs were retired because applications use up-to-date, role-specific copies distributed separately.
 
-The PDF versions are included in the website. Editable DOCX versions are delivered separately. No live portfolio URL is inserted until hosting succeeds.
+Earlier QA reports in `review/` refer to the original site version and are retained as historical evidence only.
 
 ## Do not add to the public source repository
 
-No original private project ZIP, `.env`, API/OAuth secrets, employer programs, client schematics, job application tracker records, private report outputs, personal phone number, or unconsented photographs. A draft Markdown flag is not a security boundary.
+No original private project ZIP, `.env`, API/OAuth secrets, employer programs, client schematics, job application tracker records, private report outputs, personal phone number, CV PDFs, or unconsented photographs. A draft Markdown flag is not a security boundary.
 
 ## Launch scope
 

@@ -108,19 +108,5 @@
         "Supported electrical schematics, control-panel wiring, WinCC SCADA layouts, sensor installation and PLC signal checks."
       ]
     }
-  ],
-  "cv": [
-    {
-      "key": "Engineering",
-      "title": "Hardware & robotics engineering",
-      "description": "ABB robots, industrial automation, CAD, controls and hardware integration. Updated application CV available on request.",
-      "request_subject": "Engineering CV request — Aravind Sudheer"
-    },
-    {
-      "key": "ML_Data",
-      "title": "Machine learning & data science",
-      "description": "Python, SQL, recommendation algorithms, computer vision and applied AI. Updated application CV available on request.",
-      "request_subject": "ML and Data Science CV request — Aravind Sudheer"
-    }
   ]
 }

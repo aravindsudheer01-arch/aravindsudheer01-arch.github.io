@@ -22,7 +22,7 @@
       <a class="brand" href="{{ url('index.html') }}" aria-label="Aravind Sudheer — home"><span class="brand-mark">AS<span>.</span></span><span class="brand-name">Aravind Sudheer<span>ENGINEERING PORTFOLIO</span></span></a>
       <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" hidden>Menu <span aria-hidden="true">+</span></button>
       <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
-        {% for label, path, section in [('Work','projects/index.html','work'),('Experience','experience/index.html','experience'),('About','about/index.html','about'),('CV','resume/index.html','resume')] %}
+        {% for label, path, section in [('Projects','projects/index.html','projects'),('Experience','experience/index.html','experience'),('About','about/index.html','about')] %}
         <a href="{{ url(path) }}" {% if active == section %}aria-current="page"{% endif %}>{{ label }}</a>
         {% endfor %}
         <a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>

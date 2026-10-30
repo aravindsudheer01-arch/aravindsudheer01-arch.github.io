@@ -39,4 +39,15 @@ class ContentTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             p=Path(tmp)/'bad.md';p.write_text('No metadata')
             with self.assertRaises(ValueError):load_project(p)
+    def test_projects_navigation_and_no_public_cv(self):
+        from build import build
+        site=build()
+        home=(site/'index.html').read_text(encoding='utf-8')
+        projects=(site/'projects/index.html').read_text(encoding='utf-8')
+        self.assertIn('>Projects</a>', home)
+        self.assertIn('>Experience</a>', home)
+        self.assertNotIn('resume/index.html', home)
+        self.assertFalse((site/'resume').exists())
+        self.assertFalse((site/'assets/cv').exists())
+        self.assertIn('All projects', projects)
 if __name__=='__main__':unittest.main()
