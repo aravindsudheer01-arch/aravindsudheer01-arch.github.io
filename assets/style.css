@@ -18,3 +18,10 @@
 @media(max-width:360px){.container{width:calc(100% - 32px)}.hero h1{font-size:39px}.primary-nav{gap:8px}.primary-nav>a{font-size:10px}.hero-actions{gap:17px}.hero-actions .button{padding:13px 16px;gap:16px}.figure-top span:last-child{display:none}.hero-figure figcaption{font-size:10px}.hero-figure figcaption span{font-size:8px}.page-intro h1{font-size:38px}.case-header h1{font-size:37px}.brand-name>span{font-size:7px}.email-link{font-size:16px}.social-links{gap:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.hero-figure{transform:none}}
 @media print{.site-header,.site-footer,.case-sidebar,.next-case,.hero-actions,.project-controls{display:none!important}body{background:white;color:#111}.container{width:100%}.case-layout{display:block}.case-figure>img{max-height:220px}.case-header,.page-intro{padding-top:0}a{text-decoration:none}.prose h2{break-after:avoid}.project-card,.timeline-row{break-inside:avoid}}
+
+/* In-page project video: quiet preview, visitor-controlled playback */
+.project-video{padding-top:28px;margin:35px 0 48px;border-top:1px solid var(--line)}
+.project-video h2{font-size:clamp(22px,2.5vw,29px);letter-spacing:-.7px;margin:0 0 18px}
+.project-video figure{margin:0}
+.project-video video{display:block;width:min(100%,390px);height:auto;max-height:570px;object-fit:contain;border:1px solid var(--line);background:#26372e}
+.project-video figcaption{font-size:12px;line-height:1.65;color:var(--muted);max-width:630px;margin-top:12px}

@@ -29,7 +29,17 @@ gallery:
     caption: Physical assembly photographed during testing
 ```
 
-For video, use a real HTTPS link to an approved, externally hosted demonstration in the `demo_url` field. Project pages already display it as an **Open project demo** link. Video files are not yet stored or embedded in the site.
+For short approved clips, the site also supports an **in-page HTML5 video player**. Encode an H.264 MP4, place it in `assets/videos/`, supply a static poster under `assets/images/`, and add this front matter to the project Markdown:
+
+```yaml
+video:
+  src: assets/videos/simpliforge-concrete-bench.mp4
+  poster: assets/images/simpliforge-concrete-bench-poster.jpg
+  alt: Accessible description of the clip
+  caption: What it actually demonstrates, and what it does not
+```
+
+Playback is visitor-controlled (no autoplay) and the video is lazy-loaded. For long clips, use an approved externally hosted HTTPS `demo_url` instead. The source MOV with unneeded audio is not published.
 
 Do not upload confidential employer/client materials, API secrets, unconsented face videos, or personal addresses. Clearly distinguish real photos from diagrams and label testing limitations.
 

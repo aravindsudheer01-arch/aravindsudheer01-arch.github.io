@@ -63,3 +63,12 @@ No original private project ZIP, `.env`, API/OAuth secrets, employer programs, c
 ## Launch scope
 
 Review the wording, publish this version and add the live URL to your applications. Real images can be added as a bounded improvement after launch. No new app project, backend, custom domain or redesign is required to use this site.
+
+## Simpliforge site-media update — 30 October 2026
+
+- Aravind supplied a site photograph of an ABB robotic concrete-printing installation and a five-second personal work sample showing a finished concrete bench.
+- The public photograph was cropped to focus on the robot and **exclude an unrelated person** from the frame; no original image with that individual was added.
+- The video was converted from HEVC MOV to a compact, silent, browser-compatible H.264 MP4. The website also stores an extracted still as a video poster. No audio track, metadata or source MOV was uploaded.
+- The clip shows the **completed printed bench**, not the printer in motion; no material strength, process repeatability, printing accuracy or throughput is inferred.
+- This is evidence provided by Aravind as a participant in the work; employer permission for sharing any site footage is not independently established by this repository.
+- The case study continues to exclude proprietary robot programs, exact equipment settings, and client identifiers.

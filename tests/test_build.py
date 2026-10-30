@@ -61,4 +61,25 @@ class ContentTests(unittest.TestCase):
             self.assertTrue(image['caption'])
         self.assertNotIn('BLYNK_AUTH_TOKEN',project['body'])
         self.assertIn('32-minute',project['body'])
+    def test_simpliforge_media_assets_and_video_render(self):
+        from build import build
+        project=next(p for p in load_projects() if p['slug']=='robotic-concrete-printing')
+        self.assertTrue(safe_asset(project['image']).is_file())
+        self.assertIsNotNone(project['video'])
+        self.assertEqual(project['video']['src'], 'assets/videos/simpliforge-concrete-bench.mp4')
+        self.assertTrue(safe_asset(project['video']['src']).is_file())
+        self.assertTrue(safe_asset(project['video']['poster']).is_file())
+        site=build()
+        html=(site/'projects/robotic-concrete-printing/index.html').read_text(encoding='utf-8')
+        self.assertIn('<video controls playsinline',html)
+        self.assertIn('type="video/mp4"',html)
+        self.assertIn('simpliforge-concrete-bench.mp4',html)
+        self.assertIn('simpliforge-abb-robot-site.jpg',html)
+    def test_project_video_rejects_unsafe_asset(self):
+        from build import load_project
+        source=(Path(__file__).resolve().parents[1]/'content/projects/robotic-concrete-printing.md').read_text(encoding='utf-8')
+        with tempfile.TemporaryDirectory() as tmp:
+            p=Path(tmp)/'unsafe-video.md'
+            p.write_text(source.replace('assets/videos/simpliforge-concrete-bench.mp4','assets/../../secrets.mp4'))
+            with self.assertRaises(ValueError):load_project(p)
 if __name__=='__main__':unittest.main()
