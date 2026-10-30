@@ -30,7 +30,7 @@ gallery:
     caption: Rooftop-mounted enclosure and installed monitoring hardware during field trials (report p. 22).
   - src: assets/images/fyp-solar-rtu-boards.jpg
     alt: Close-up photographs of the before-inverter and after-inverter ESP32 RTU prototypes.
-    caption: The two physical RTUs: DC-side acquisition and AC-side aggregation with cellular communication (report p. 22).
+    caption: "The two physical RTUs: DC-side acquisition and AC-side aggregation with cellular communication (report p. 22)."
   - src: assets/images/fyp-solar-blynk-dashboard.jpg
     alt: Actual Blynk dashboard screenshots with separate DC and AC gauges and time-series plots.
     caption: Blynk monitoring displays recorded during testing; gauges and trend plots are original report screenshots (report p. 24).
