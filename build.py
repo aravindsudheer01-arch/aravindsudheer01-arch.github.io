@@ -67,6 +67,7 @@ def load_project(path: Path) -> dict:
     safe_asset(meta['image'])
     for image in meta.get('gallery',[]):
         safe_asset(image['src'])
+        if not image.get('alt'):raise ValueError('Gallery images need alt text')
     video=meta.get('video')
     if video is not None:
         if not isinstance(video,dict) or not all(isinstance(video.get(k),str) and video[k].strip() for k in ('src','poster','alt','caption')):
@@ -77,7 +78,6 @@ def load_project(path: Path) -> dict:
             raise ValueError(f"{path.name}: video poster must be an image")
         safe_asset(video['src'])
         safe_asset(video['poster'])
-        if not image.get('alt'):raise ValueError('Gallery images need alt text')
     for value in [meta.get('repository'),meta.get('demo_url')]+[s.get('url') for s in meta.get('sources',[])]:
         if value and (urlparse(value).scheme!='https' or not urlparse(value).netloc):raise ValueError(f'{path.name}: external links must be HTTPS')
     renderer=Renderer();md=mistune.create_markdown(renderer=renderer,plugins=['table','strikethrough'])
