@@ -92,7 +92,9 @@ def build(destination: Path | None=None) -> Path:
     projects=load_projects()
     profile=json.loads((ROOT/'content/profile.json').read_text())
     profile['site_url'] = os.environ.get('PORTFOLIO_SITE_URL', profile.get('site_url','')).rstrip('/')
-    for cv in profile['cv']:safe_asset("assets/cv/"+cv["file"])
+    for cv in profile['cv']:
+        if cv.get('file'):
+            safe_asset('assets/cv/' + cv['file'])
     env=jinja2.Environment(loader=jinja2.FileSystemLoader(ROOT/'templates'),autoescape=jinja2.select_autoescape(['html']),undefined=jinja2.StrictUndefined)
     work=Path(tempfile.mkdtemp(prefix='.site-build-',dir=ROOT))
     routes=[]
