@@ -6,10 +6,10 @@
   "github": "https://github.com/aravindsudheer01-arch",
   "linkedin": "https://www.linkedin.com/in/aravindsudheer/",
   "site_url": "",
-  "updated": "2026-10-23",
+  "updated": "2026-10-30",
   "year": "2026",
-  "intro": "Robotics & Mechatronics graduate building Python applications, applied AI tools and data analysis. Grounded in hands-on industrial automation.",
-  "opportunity": "Seeking junior roles in Python development, AI applications and data analytics, with selective opportunities in ML and computer vision.",
+  "intro": "Robotics and Mechatronics Engineering graduate from Monash University, combining hands-on ABB robotics and industrial automation experience with Python, SQL, machine learning and computer vision projects.",
+  "opportunity": "Open to robotics and automation engineering positions, and junior Python, data analytics, applied AI and machine-learning opportunities.",
   "education": {
     "degree": "Bachelor of Engineering (Honours)",
     "discipline": "Robotics and Mechatronics Engineering",
@@ -18,6 +18,11 @@
     "date": "July 2025"
   },
   "certifications": [
+    {
+      "name": "Registered Graduate Engineer (Mechatronics)",
+      "issuer": "Board of Engineers Malaysia (BEM)",
+      "date": "November 2025"
+    },
     {
       "name": "Certified SOLIDWORKS Associate (CSWA)",
       "issuer": "Dassault Systèmes",
@@ -82,11 +87,11 @@
       "dates": "Dec 2025 — May 2026",
       "type": "Professional experience",
       "slug": "robotic-concrete-printing",
-      "summary": "ABB robot programming, calibration and troubleshooting for concrete additive manufacturing.",
+      "summary": "ABB robotics and concrete printing; site-operations leadership and engineer training.",
       "bullets": [
-        "Programmed, simulated and deployed ABB six-axis robots using RAPID and RobotStudio for concrete 3D printing.",
-        "Configured workobjects, tool data and end-effectors before live robotic printing.",
-        "Monitored PLC signals and process parameters; troubleshot robot-motion and program-execution issues."
+        "Appointed second-in-charge for site operations within the first month; helped coordinate daily robotic-printing operations.",
+        "Created training materials for junior engineers from scratch; collaborated with the CTO on site safety and onboarding documentation.",
+        "Programmed and simulated ABB six-axis robots using RAPID and RobotStudio, calibrated tooling, and troubleshot motion and execution issues."
       ]
     },
     {
@@ -96,38 +101,26 @@
       "dates": "Nov 2023 — Feb 2024",
       "type": "Internship",
       "slug": "warehouse-automation",
-      "summary": "Control-panel wiring, WinCC warehouse layouts and practical system validation.",
+      "summary": "Industrial automation commissioning, on-time Pick-to-Light delivery and faster site setup.",
       "bullets": [
-        "Created AutoCAD electrical schematics and supported control-panel wiring.",
-        "Worked on WinCC SCADA layouts, sensor installation and PLC signal verification.",
-        "Assisted industrial-system commissioning, electrical checks and technical documentation; did not independently commission a complete SCADA system."
+        "Worked with fellow interns to deploy a 25-aisle Pick-to-Light system ahead of the deadline.",
+        "Introduced an organized equipment storage system to reduce setup effort and make working hours more productive.",
+        "Supported electrical schematics, control-panel wiring, WinCC SCADA layouts, sensor installation and PLC signal checks."
       ]
     }
   ],
   "cv": [
     {
-      "key": "SW_AI",
-      "title": "Python & AI applications",
-      "description": "Python, API integration and applied AI, supported by robotics programming experience.",
-      "file": "Aravind_SW_AI_CV.pdf"
-    },
-    {
-      "key": "DATA",
-      "title": "Data & analytics",
-      "description": "SQL analysis, data preparation and practical engineering context.",
-      "file": "Aravind_DATA_CV.pdf"
-    },
-    {
-      "key": "ML_CV",
-      "title": "ML & computer vision",
-      "description": "Project-based ML, content-based recommendation and computer vision prototypes.",
-      "file": "Aravind_ML_CV.pdf"
-    },
-    {
       "key": "Engineering",
-      "title": "Robotics & engineering",
-      "description": "ABB programming, commissioning support, CAD and hardware integration.",
-      "file": "Aravind_Engineering_CV.pdf"
+      "title": "Hardware & robotics engineering",
+      "description": "ABB robots, industrial automation, CAD, controls and hardware integration. Updated application CV available on request.",
+      "request_subject": "Engineering CV request — Aravind Sudheer"
+    },
+    {
+      "key": "ML_Data",
+      "title": "Machine learning & data science",
+      "description": "Python, SQL, recommendation algorithms, computer vision and applied AI. Updated application CV available on request.",
+      "request_subject": "ML and Data Science CV request — Aravind Sudheer"
     }
   ]
 }
